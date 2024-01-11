@@ -1,4 +1,4 @@
-#PROFILE MAKER
+PROFILE MAKER
 
 Welcome to the **Profile Maker** project!
 This simple yet elegant HTML and CSS application allows users to create their profiles seamlessly.
