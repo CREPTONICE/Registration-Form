@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile Maker</title>
+</head>
+<body>
+    <h1 id="Title">Profile Maker</h1>
+    <h3 id="description">Please fill out this form with the required
+         information</h3>
+<form id="Regesteration">
+<fieldset>
+    <input id="First-Name" type="text" required
+     placeholder="First Name">
+
+        <input id="Last-Name" type="text" required 
+         placeholder="Last Name">
+
+         <input id="Email" type="email" required
+          placeholder="Email">
+
+         <input id="password" type="password" required
+          placeholder="Password" pattern="[a-z0-5]{8,}">
+
+          <input id="Number" type="number" required
+          placeholder="Number">
+
+          <input id="Age" type="number" required
+          placeholder="Age" min="10" max="90">
+
+        </fieldset>
+        <fieldset>
+          <legend> Account Type (Required) </legend>
+
+             <label for="Personal-Account"> 
+                <input id="Personal-Account" name="Account-Type" type="radio"
+                 checked value="Personal" class="inline">Personal</label>
+
+             <label for="Business-Account"> 
+                <input id="Business-Account" name="Account-Type" type="radio"
+                  value="Personal" class="inline">Business</label>
+
+             <label for="Other-Account"> 
+                <input id="Other-Account" name="Account-Type" type="radio"
+                  value="Other" class="inline">Other</label>
+
+                  <textarea name="Other" id="Other" cols="12" rows="1"
+                    placeholder="Please Specify" ></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <label for="Profile-pic"> Upload a Profile Picture
+                    <input id="Profile-pic" type="file" name="file" required></label>
+                
+                    <label for="Back-pic"> Upload a Background Picture
+                        <input id="Back-pic" type="file" name="file" required></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Please Provide a Bio</legend>
+                    <textarea name="Bio" id="Bio" cols="25" rows="2" placeholder="I Like Dancing..."></textarea>
+                </fieldset>
+
+<fieldset>
+    <label for="terms-and-conditions">
+        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" />
+         I accept the terms and conditions 
+    <label for="Submit">
+        <input id="Submit" type="submit" value="submit">
+    </label>
+
+</fieldset>
+
+</form>
+
+</body>
+</html>
